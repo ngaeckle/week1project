@@ -1,0 +1,173 @@
+.middle-top-p{
+    border-top: 1px solid lightgray;
+    margin: 80px;
+    text-align: center;
+}
+
+.img-middle-tp{
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 50px;
+}
+
+.grid-img-middle-left{
+    border: 1px solid lightgray;
+    width: fit-content;
+    margin: 50px;
+    padding: 28px 65px 28px;
+    border-radius: 20px;
+    font-size: 23px;
+    line-height: 20px;
+    background-color: blue;
+}
+.pricing{
+    margin-left: 6px;
+    background-color: white;
+    width: fit-content;
+    padding: 30px 30px 30px;
+    border-radius: 70px;
+}
+
+.grid-img-middle-left2{
+    border: 1px solid lightgray;
+    width: fit-content;
+    margin: 50px;
+    padding: 28px 65px 28px;
+    border-radius: 20px;
+    font-size: 23px;
+    line-height: 20px;
+}
+
+.grid-img-middle-right{
+    border: 1px solid lightgray;
+    width: fit-content;
+    margin: 50px;
+    padding: 28px 65px 28px;
+    border-radius: 20px;
+    font-size: 23px;
+    line-height: 50px;
+}
+
+.grid-img-middle-right2{
+    border: 1px solid lightgray;
+    width: fit-content;
+    margin: 50px;
+    padding: 28px 65px 28px;
+    border-radius: 20px;
+    font-size: 23px;
+    line-height: 50px;
+}
+
+.middle-start-payments{
+    margin-left: 105px;
+    margin-right: 105px;
+    border: 1px solid lightgray;
+    max-width: 1400px;
+    max-height: 2600px;
+    margin: 70px auto o;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 98px;
+}
+
+.middle-start{
+    border-left: 2px solid grey;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: blue;
+    color: white;
+}
+
+@media( max-width = 658){
+    .img-middle-tp{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+}
+
+.btn-payments{
+    width: 300px;
+    padding-right:150px;
+    background-color: blue;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.btn-payments a{
+    color: white;
+    display: flex;
+    padding-left: 100px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.Solutions{
+    font-size: 30px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.items-for-solution{
+    margin-top: 50px;
+    margin-left: 100px;
+    gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+}
+
+.items-for-solution1 img{
+    padding: 30px;
+    margin-left: 35px;
+    background-size: 100% 125px;
+    background-image: url(/images/Ellipse\ -1@2x.png);
+    background-repeat: no-repeat;
+}
+
+.items-for-solution2 img{
+    padding: 30px;
+    margin-left: 35px;
+    background-size: 100% 125px;
+    background-image: url(/images/Ellipse\ -1@2x.png);
+    background-repeat: no-repeat;
+}
+
+.items-for-solution2 h3{
+    padding-left: 30px;
+}
+
+.item-for-solution2 img{
+    padding: 30px;
+    margin-left: 35px;
+    background-size: 100% 125px;
+    background-image: url(/images/Ellipse\ -1@2x.png);
+    background-repeat: no-repeat;
+}
+
+.item-for-solution2 h3{
+    padding-left: 60px;
+}
+
+.btn-for-solutions{
+    background-color: white;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.items-for-solution1 h3{
+    padding-left: 40px;
+}
+
+.items-for-solution1 p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
