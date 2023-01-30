@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.signin1 {
+    display: flex;
+    flex-direction: column;
+    height:600px;
+    width:1000px;
+    margin: auto;
+    margin-top: 50px;
+    position: absolute;
+    left:100px;
+}
+.fa-solid{
+    position: relative;
+    right: 200px;
+    top: 60px;
+
+
+}
+.signin1 h1{
+    font-size: 3rem;
+    margin: 40px;
+    text-align: 20px;
+    font-weight: 600;
+    align-items: center;
+    left: 10px;
+}
+.form-signin{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    align-items: center;
+    background-color:white ;
+
+}
+.box{
+    padding: 12px;
+    width: 100%;
+    margin:15px;
+    font-size: x-large;
+    outline: none;
+    border-radius: 30px;
+    column-gap: 10px;
+}
+.btn{
+    padding:12px 30px;
+    width: 50%;
+    margin-top: 40px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border-radius: 20px;
+
+}
+.social{
+    position: relative;
+    margin: 40px;
+    font-weight: 600;
+    align-content: center;
+    left: 100px;
+
+    
+
+}
+.img-social{
+    display:flex;
+    gap: 60px;
+    position: relative;
+    top: 50px;
+    left: 0;
+    
+
+}
+.family{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.parent{
+    position: relative;
+    top: 0;
+    left: 0;
+    border:1px solid black ;
+    border-radius: 60px;
+
+}
+.child{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+.family1{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.parent1{
+    position: relative;
+    top: 0;
+    left: 0;
+    border:1px solid black ;
+    border-radius: 60px;
+
+}
+.child1{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.family2{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.parent2{
+    position: relative;
+    top: 0;
+    left: 0;
+    border:1px solid black ;
+    border-radius: 60px;
+
+}
+.child2{
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+.family3{
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+.parent3{
+    position: relative;
+    top: 0;
+    left: 0;
+    border:1px solid black ;
+    border-radius: 60px;
+
+}
+.child3{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+    
+.side{
+    
+    width:50%;;
+    padding:20px;
+    position: absolute;
+    top: 20px;
+    left: 70%;
+    
+    
+
+}
+.side-img{
+    margin-right: 10px;
+    max-width: 45%;
+    max-height: 75%;
+
+}
+
+/*signin*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-position: 50px;
+    border: 1px border solid black;
+}
+
+
+.sign-in12 {
+    display: flex;
+    flex-direction:column;
+    height:600px;
+    width:1000px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.fa-solid{
+    position: relative;
+    right: 200px;
+    top: 60px;
+
+
+}
+.signin-up{
+
+    position: relative;
+    right:600px
+}
+
+.signin-up:before {
+    content: "";
+    position: absolute;
+    height: 2500px;
+    width: 2000px;
+    top: -25%;
+    right:-7%;
+    transform: translateY(-50%);
+    background-image: linear-gradient(-45deg, #0626d7 20%, #2a0dbb 100%);
+    border-radius: 50%;
+    z-index: 6;
+}
+.img23{
+    position: relative;
+    left: 190px;
+    top: 200px;
+    z-index: 10;
+    
+
+}
+.sign-in12 h1{
+    font-size: 3rem;
+    margin: 10px;
+    text-align: 20px;
+    font-weight: 600;
+    align-items: center;
+    position: relative;
+    left: 120px;
+
+}
+.btn-blue{
+    padding:12px 12px;
+    width: -100px;
+
+    margin-top: 40px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border-radius: 20px;
+    position: relative;
+    left: -10px;
+    top: 10px;
+    z-index: 10;
+}
+
+
+.sign-in12 p{
+    position: relative;
+    color: aliceblue;
+    left: 100px;
+    top: 10px;
+    z-index: 10; 
+    font-size: x-large;
+}
+
+.form-signin12{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    align-items: center;
+    background-color:white ;
+
+
+}
+.box234{
+    position: relative;
+    bottom:700px;
+    left:700px;
+    
+    
+}
+.box1{
+    padding: 12px;
+    width: 100%;
+    margin:15px;
+    font-size: x-large;
+    outline: none;
+    border-radius: 30px;
+    column-gap: 10px;
+}
+.btn{
+    padding:12px 30px;
+    width: 50%;
+    margin-top: 40px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border-radius: 20px;
+
+}
+.social1{
+    position: relative;
+    margin: 40px;
+    font-weight: 600;
+    align-content: center;
+    left: 100px;
+
+    
+
+}
+.img-social1{
+    display:flex;
+    gap: 60px;
+    position: relative;
+    top: 50px;
+    left: 0;
+    
+
+}
+
+
+
+
