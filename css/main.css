@@ -1,10 +1,8 @@
 
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-
 }
+
 .signin1 {
     display: flex;
     flex-direction: column;
@@ -47,7 +45,7 @@
     border-radius: 30px;
     column-gap: 10px;
 }
-.btn{
+.btn-arsema{
     padding:12px 30px;
     width: 50%;
     margin-top: 40px;
@@ -198,10 +196,11 @@ body{
 
 }
 .signin-up{
-
+margin-left: auto;
     position: relative;
     right:600px
 }
+
 
 .signin-up:before {
     content: "";
@@ -284,7 +283,7 @@ body{
     border-radius: 30px;
     column-gap: 10px;
 }
-.btn{
+.btn-arsema{
     padding:12px 30px;
     width: 50%;
     margin-top: 40px;
@@ -744,6 +743,7 @@ footer{
     align-items: center;
     color: white;
     text-align: center;
+    margin-top: 20px;
 }
 
 footer .btn{
@@ -764,4 +764,5 @@ footer .gettingstarted{
         display: none;
     }
 }
+
 
