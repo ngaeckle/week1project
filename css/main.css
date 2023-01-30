@@ -138,7 +138,7 @@ footer .gettingstarted{
 
 @media(max-width: 1000px){
     .hero-section{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     header{
         display: none;
